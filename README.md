@@ -31,7 +31,7 @@ Used for the structural foundation of the interface. The contrast ratio between 
 | Token ID | Swatch | Variable Name | Hex Value | Usage |
 | :--- | :---: | :--- | :--- | :--- |
 | **FC-00** | <img src="https://placehold.co/100x40/121418/121418/png" width="50" height="20" alt="FC-00"/> | `bg-main` | `#121418` | **Canvas.** The deepest shade. Main editor background. |
-| **FC-01** | <img src="https://placehold.co/100x40/1e232d/1e232d/png" width="50" height="20" alt="FC-01"/> | `bg-surface` | `#1e232d` | **Panels.** Sidebars, tree views, terminal backgrounds. |
+| **FC-01** | <img src="https://placehold.co/100x40/191c22/191c22/png" width="50" height="20" alt="FC-01"/> | `bg-surface` | `#191c22` | **Panels.** Sidebars, tree views, terminal backgrounds. |
 | **FC-02** | <img src="https://placehold.co/100x40/2e3440/2e3440/png" width="50" height="20" alt="FC-02"/> | `bg-elevated` | `#2e3440` | **Float.** Modals, popups, cards, dropdowns. |
 | **FC-03** | <img src="https://placehold.co/100x40/3b4252/3b4252/png" width="50" height="20" alt="FC-03"/> | `ui-border` | `#3b4252` | **Borders.** Splitters, rulers, input borders. |
 | **FC-04** | <img src="https://placehold.co/100x40/484f5c/484f5c/png" width="50" height="20" alt="FC-04"/> | `ui-detail` | `#484f5c` | **Details.** Scrollbars, disabled states, subtle shadows. |
@@ -79,6 +79,14 @@ Flatcap utilizes high-quality open-source typefaces that support **Variable Font
 | **Code & Mono** | **Cascadia Code NF** | Microsoft's modern monospace. Includes ligatures (`!=`, `=>`) and Nerd Font icons out-of-the-box. |
 | **Document/Serif** | **Merriweather** | Used for long-form documentation or "Reader Mode". Excellent readability on high-DPI screens. |
 
+### Font Requirements
+
+For the best visual experience, please install:
+
+*   **[Inter](https://fonts.google.com/specimen/Inter)** (UI & Text)
+*   **[Cascadia Code NF](https://github.com/microsoft/cascadia-code/releases)** (Code & Monospace)
+*   **[Merriweather](https://fonts.google.com/specimen/Merriweather)** (Documents)
+
 ## 5. UI Metrics
 
 To maintain the "Flat, but distinct" aesthetic:
@@ -111,7 +119,7 @@ This mapping separates **Logic** (Blues/Cyans) from **Data** (Greens/Purples/Ora
 :root {
   /* -- Deep Twilight -- */
   --fc-bg-main:     #121418;
-  --fc-bg-surface:  #1e232d;
+  --fc-bg-surface:  #191c22;
   --fc-bg-elevated: #2e3440;
   --fc-border:      #3b4252;
   --fc-detail:      #484f5c;
