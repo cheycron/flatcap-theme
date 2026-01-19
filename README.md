@@ -1,90 +1,143 @@
-<p align="center">
-  <img src="https://github.com/cheycron/flat-cap-theme/blob/main/images/readme_logo.png?raw=true" alt="Flatcap"/>
-</p>
+# Flatcap UI Theme
 
-<p align="center">
-  Flatcap is a dark, minimalist, and eye-friendly theme meticulously crafted to provide a comfortable and focused experience.
-</p>
+![Version](https://img.shields.io/badge/version-1.0.0-blueviolet) ![License](https://img.shields.io/badge/license-MIT-blue)
 
-## Philosophy
+**Flatcap** is a design system and color scheme tailored for application interfaces, code editors, and data-dense dashboards. Drawing inspiration from the *Nord theme*, it embraces principles of calm, clean aesthetics, and a dimmed pastel color approach to reduce eye strain during long coding or administration sessions.
 
-Flatcap draws inspiration from the fantastic design logic of the **[Nord theme](https://github.com/nordtheme/nord)**, embracing its principles of calm, clean aesthetics, and a dimmed pastel color approach. This results in a theme that is both familiar in its minimalist comfort and fresh in its distinct, modern color scheme.
+## 1. Philosophy
 
-## Color Palette
+Flatcap is built to be:
 
-The Flatcap theme is built upon a carefully curated and expanded color palette, designed for granular control and visual harmony across various UI elements and syntax highlighting. The palette is divided into four main categories: Deep Twilight, Dawnlight, Ocean Blues, and Vivid Accents.
+- **Minimalist:** Reduces visual noise by avoiding harsh contrasts and saturated primaries.
+- **Comfortable:** Specifically tuned for low-light environments; low contrast helps maintain focus without fatigue.
+- **Modern:** Uses a flat, matte color finish that feels distinct yet familiar.
 
-### Deep Twilight (Dark Backgrounds & Base Elements)
+## 2. Naming Conventions
 
-<p>
-  <img src="https://placehold.co/100x100/121418/5e81ac/png?font=source-sans-pro&text=%23121418" />
-  <img src="https://placehold.co/100x100/191c22/5e81ac/png?font=source-sans-pro&text=%23191c22" />
-  <img src="https://placehold.co/100x100/23272f/5e81ac/png?font=source-sans-pro&text=%2323272f" />
-  <img src="https://placehold.co/100x100/303540/5e81ac/png?font=source-sans-pro&text=%23303540" />
-  <img src="https://placehold.co/100x100/484f5c/5e81ac/png?font=source-sans-pro&text=%23484f5c" />
-</p>
+To maintain brand consistency, always adhere to these naming rules:
 
-These colors form the foundational layers of a dark interface, creating a sense of depth and focus. They are ideal for establishing a clear visual hierarchy, from the main application window to interactive surfaces.
+*   **Official Name:** Always write as **Flatcap** (Single word, capitalized 'F').
+*   **Prohibited Forms:** Never use "Flat Cap" (with space) or "Flat-Cap" (with hyphen).
+*   **Variables:** Use `flatcap` (all lowercase) ONLY when the technical context (e.g., code variables, file paths) strictly requires lowercase.
 
-- **Flatcap 0**: `#121418` - **Main Background**: The deepest shade, perfect for the primary application background or the editor surface. It makes foreground elements stand out, reducing visual noise and helping the user focus on the content.
-- **Flatcap 1**: `#191c22` - **Secondary Surfaces**: Slightly lighter, this color is ideal for secondary panels like sidebars, tree views, or inactive tabs. It subtly separates auxiliary sections from the main content area without creating a harsh contrast.
-- **Flatcap 2**: `#23272f` - **Elevated Elements & Hover States**: Used for surfaces that appear "closer" to the user, such as modal dialogs, pop-up menus, or cards. It also works perfectly as a hover state for elements using Flatcap 1, providing clear interactive feedback.
-- **Flatcap 3**: `#303540` - **Borders & Dividers**: The ideal choice for creating subtle separation. Use it for borders on panels, dividers in lists, or rulers in an editor. It's also excellent for secondary text, like code comments or placeholder hints in input fields, that should be present but not distracting.
-- **Flatcap 4**: `#484f5c` - **Subtle Details & Disabled States**: Perfect for UI details that require minimal emphasis, such as subtle drop shadows, scrollbar tracks, or the background of a disabled button. It can also be used for highly muted, non-essential text.
+## 3. Technical Palette Definitions
 
-### Dawnlight (Light Text & UI Elements)
+The system relies on **20 core colors** divided into four distinct families.
+*Note: This specification includes semantic optimizations for better accessibility and state recognition.*
 
-<p>
-  <img src="https://placehold.co/100x100/b2b6bf/5e81ac/png?font=source-sans-pro&text=%23b2b6bf" />
-  <img src="https://placehold.co/100x100/bfc2ca/5e81ac/png?font=source-sans-pro&text=%23bfc2ca" />
-  <img src="https://placehold.co/100x100/cbced5/5e81ac/png?font=source-sans-pro&text=%23cbced5" />
-  <img src="https://placehold.co/100x100/d8dadf/5e81ac/png?font=source-sans-pro&text=%23d8dadf" />
-  <img src="https://placehold.co/100x100/e4e6e9/5e81ac/png?font=source-sans-pro&text=%23e4e6e9" />
-</p>
+### 🌑 Deep Twilight (Structural)
+Used for the structural foundation of the interface. The contrast ratio between levels is tuned to create depth without using heavy drop shadows.
 
-This group provides the clean, legible text and bright surfaces essential for a comfortable reading experience and a crisp, modern look in both dark and light themes. The tonal progression has been softened to offer a more delicate and refined contrast.
+| Token ID | Variable Name | Hex Value | Usage |
+| :--- | :--- | :--- | :--- |
+| **FC-00** | `bg-main` | `#121418` | **Canvas.** The deepest shade. Main editor background. |
+| **FC-01** | `bg-surface` | `#1e232d` | **Panels.** Sidebars, tree views, terminal backgrounds. |
+| **FC-02** | `bg-elevated` | `#2e3440` | **Float.** Modals, popups, cards, dropdowns. |
+| **FC-03** | `ui-border` | `#3b4252` | **Borders.** Splitters, rulers, input borders. |
+| **FC-04** | `ui-detail` | `#484f5c` | **Details.** Scrollbars, disabled states, subtle shadows. |
 
-- **Flatcap 5**: `#b2b6bf` - **Low-Priority & Hint Text**: This darker, subtle shade is perfect for non-essential text like metadata, timestamps, or breadcrumbs. Its low contrast makes it ideal for information that should be available without drawing attention.
-- **Flatcap 6**: `#bfc2ca` - **Secondary Text & Comments**: A medium-contrast color, excellent for secondary text, descriptions, or code comments. It's clearly legible but distinct from the main text, helping to establish an informational hierarchy.
-- **Flatcap 7**: `#cbced5` - **Primary Text**: The standard for all primary body text in a dark interface. It offers exceptional readability against the Deep Twilight backgrounds without causing eye strain, striking a perfect balance between clarity and comfort.
-- **Flatcap 8**: `#d8dadf` - **Highlight Text & Titles**: Used to give prominence to headings, titles, or active menu items. Its added brightness sets it apart as an element of higher importance. In a light theme, it serves as an excellent base background.
-- **Flatcap 9**: `#e4e6e9` - **High-Impact Text & Focus Accents**: Reserved for the most important text elements or for the hover state on interactive text. Its maximum brightness ensures high visibility and can be used for high-contrast accents, like the fill of an active checkbox.
+### 🌫️ Dawnlight (Typography)
+A monochromatic scale designed to provide text hierarchy while maintaining low contrast relative to the background.
 
-### Ocean Blues (Primary UI Components & Syntax)
+| Token ID | Variable Name | Hex Value | Usage |
+| :--- | :--- | :--- | :--- |
+| **FC-05** | `text-faint` | `#6a7280` | **Ignored.** Inactive line numbers, invisible characters. |
+| **FC-06** | `text-muted` | `#b2b6bf` | **Metadata.** Comments, timestamps, breadcrumbs. |
+| **FC-07** | `text-body` | `#cbced5` | **Standard.** Primary body text. Optimized for readability. |
+| **FC-08** | `text-heading` | `#d8dadf` | **Titles.** Headings, active file names. |
+| **FC-09** | `text-bright` | `#e4e6e9` | **Emphasis.** Bold text, hover states, strong highlights. |
 
-<p>
-  <img src="https://placehold.co/100x100/5e81ac/484f5c/png?font=source-sans-pro&text=%235e81ac" />
-  <img src="https://placehold.co/100x100/81a1c1/484f5c/png?font=source-sans-pro&text=%2381a1c1" />
-  <img src="https://placehold.co/100x100/88c0d0/484f5c/png?font=source-sans-pro&text=%2388c0d0" />
-  <img src="https://placehold.co/100x100/8fbcbb/484f5c/png?font=source-sans-pro&text=%238fbcbb" />
-  <img src="https://placehold.co/100x100/95b1b0/484f5c/png?font=source-sans-pro&text=%2395b1b0" />
-</p>
+### 🌊 Ocean Blues (Primary Interaction)
+The core brand identity. Cool, calming blues used for navigation, selection, and primary actions.
 
-This family of blues brings a calm yet confident energy to the interface. These colors are the primary actors, guiding the user's attention to interactive elements and making the UI feel responsive and intuitive.
+| Token ID | Variable Name | Hex Value | Usage |
+| :--- | :--- | :--- | :--- |
+| **FC-10** | `act-subtle` | `#5e81ac` | **Secondary.** Icon buttons, unselected tabs. |
+| **FC-11** | `act-primary` | `#81a1c1` | **Brand.** Primary buttons, links, key functions. |
+| **FC-12** | `act-focus` | `#88c0d0` | **Focus.** Selection highlights, focus rings, carets. |
+| **FC-13** | `act-active` | `#8fbcbb` | **Active.** Toggles on, pressed states, progress bars. |
+| **FC-14** | `act-decor` | `#95b1b0` | **Ambient.** Glow effects, illustration fills. |
 
-- **Flatcap 10**: `#5e81ac` - **Subtle Actions & Informational Icons**: A darker, more reserved blue ideal for secondary buttons, informational icons, or unselected tabs. It indicates interactivity without demanding immediate attention.
-- **Flatcap 11**: `#81a1c1` - **Primary Buttons & Links**: The quintessential color for primary actions. Use it for "Submit", "Save", or "Apply" buttons. It's also perfect for hyperlinks within text, providing a clear visual cue for navigation.
-- **Flatcap 12**: `#88c0d0` - **Selection & Focus Highlights**: A brighter, more distinct blue perfect for highlighting selected items in a list, the active line in a code editor, or the border of a focused input field. It clearly communicates "what's currently active."
-- **Flatcap 13**: `#8fbcbb` - **Active States & Progress Indicators**: This vibrant, almost turquoise blue is excellent for the active state of a toggle switch, a pressed button, or a progress bar. It draws the eye and confirms an action is underway or a state is "on."
-- **Flatcap 14**: `#95b1b0` - **Decorative Accents & Subtle Backgrounds**: A soft, ethereal blue perfect for decorative elements like notification dots, subtle background highlights for the "featured" section of a card, or the glow effect on a focused element.
+### 🚥 Vivid Accents (Semantic Feedback)
+Strictly semantic colors. These have been optimized to diverge from the blue spectrum to ensure errors and warnings are instantly engaging.
 
-### Vivid Accents (States & Special Syntax)
+| Token ID | Variable Name | Hex Value | Usage |
+| :--- | :--- | :--- | :--- |
+| **FC-15** | `state-error` | `#bf616a` | **Error.** Validation errors, destructive actions (Red). |
+| **FC-16** | `state-warn` | `#ebcb8b` | **Warning.** Alerts, deprecation notices (Amber). |
+| **FC-17** | `state-success` | `#a3be8c` | **Success.** Confirmations, passes, added lines (Sage). |
+| **FC-18** | `state-info` | `#b48ead` | **Info.** Tips, documentation links (Orchid/Purple). |
+| **FC-19** | `state-syntax` | `#d08770` | **Highlight.** Key syntax, params, distinct logic (Orange). |
 
-<p>
-  <img src="https://placehold.co/100x100/ff70a6/484f5c/png?font=source-sans-pro&text=%23ff70a6" />
-  <img src="https://placehold.co/100x100/ffd670/484f5c/png?font=source-sans-pro&text=%23ffd670" />
-  <img src="https://placehold.co/100x100/84dcc6/484f5c/png?font=source-sans-pro&text=%2384dcc6" />
-  <img src="https://placehold.co/100x100/68b6ef/484f5c/png?font=source-sans-pro&text=%2368b6ef" />
-  <img src="https://placehold.co/100x100/00a8e0/484f5c/png?font=source-sans-pro&text=%2300a8e0" />
-</p>
+## 4. Typography System
 
-A palette of expressive colors used to communicate important states and draw attention to critical information. They should be used purposefully to ensure their impact is not diluted.
+Flatcap utilizes high-quality open-source typefaces that support **Variable Font** technology for precise weight control.
 
-- **Flatcap 15**: `#ff70a6` - **Errors & Deletion**: Use for form validation errors, failed connection messages, or the background of a "Delete" confirmation button. It immediately signals a problem or a destructive action.
-- **Flatcap 16**: `#ffd670` - **Warnings & Attention**: Ideal for warning notifications, highlighting potentially risky actions, or indicating that a feature is in "beta." It urges caution without being as alarming as the error color.
-- **Flatcap 17**: `#84dcc6` - **Success & Confirmation**: Perfect for success messages ("Your changes have been saved"), validation checkmarks, or confirming a successful transaction. It provides positive reinforcement to the user.
-- **Flatcap 18**: `#68b6ef` - **Informational Tips & New Features**: A friendly, neutral color for informational alerts, "did you know?" tips, or highlighting a new feature. It invites discovery without interrupting the user's workflow.
-- **Flatcap 19**: `#00a8e0` - **Key Syntax & Call-to-Action**: A vibrant cyan that serves as a powerful accent. Use it to highlight the most important keywords in code, or for a special call-to-action button that needs to stand out from the primary blue actions.
+| Role | Font Family | Rationale |
+| :--- | :--- | :--- |
+| **UI & Systems** | **Inter** | Industry standard for screen legibility. Neutral, tall x-height, and versatile. |
+| **Code & Mono** | **Cascadia Code NF** | Microsoft's modern monospace. Includes ligatures (`!=`, `=>`) and Nerd Font icons out-of-the-box. |
+| **Document/Serif** | **Merriweather** | Used for long-form documentation or "Reader Mode". Excellent readability on high-DPI screens. |
+
+## 5. UI Metrics
+
+To maintain the "Flat, but distinct" aesthetic:
+
+*   **Corner Radius:** Standardize on **4px** (Soft).
+*   **Elevation (Shadows):** Minimalist. Use elevation only to separate floating layers, not for decoration.
+    *   *Drop Shadow:* `0 2px 10px rgba(0, 0, 0, 0.3)` (Tight and subtle).
+    *   *Borders:* Prefer using `1px solid var(--fc-border)` over shadows for component separation.
+
+## 6. Syntax Highlighting Map
+
+This mapping separates **Logic** (Blues/Cyans) from **Data** (Greens/Purples/Oranges) to create a semantic scanning flow.
+
+| Token Scope | Color Token | Visual Result | Logic |
+| :--- | :--- | :--- | :--- |
+| **Comments** | `text-muted` (FC-06) | <span style="color:#b2b6bf">Grey</span> | Recedes into background. |
+| **Keywords** | `act-primary` (FC-11) | <span style="color:#81a1c1">Blue</span> | Control flow (`if`, `return`, `function`). |
+| **Functions** | `act-focus` (FC-12) | <span style="color:#88c0d0">Cyan</span> | Actionable methods (`.map()`, `print()`). |
+| **Classes/Types** | `act-decor` (FC-14) | <span style="color:#95b1b0">Teal</span> | Static structures (`User`, `String`, `void`). |
+| **Strings** | `state-success` (FC-17)| <span style="color:#a3be8c">Sage</span> | Text content. Calm and distinct. |
+| **Numbers/Const**| `state-info` (FC-18) | <span style="color:#b48ead">Orchid</span> | Immutable data (`42`, `true`, `null`). |
+| **Operators** | `state-syntax` (FC-19) | <span style="color:#d08770">Orange</span> | Logic glue (`=`, `+`, `=>`, `{}`). |
+| **Variables** | `text-body` (FC-07) | <span style="color:#cbced5">White/Grey</span>| Standard identifiers. |
+
+## 7. Implementation
+
+### CSS Variables
+
+```css
+:root {
+  /* -- Deep Twilight -- */
+  --fc-bg-main:     #121418;
+  --fc-bg-surface:  #1e232d;
+  --fc-bg-elevated: #2e3440;
+  --fc-border:      #3b4252;
+  --fc-detail:      #484f5c;
+
+  /* -- Dawnlight -- */
+  --fc-text-faint:   #6a7280;
+  --fc-text-muted:   #b2b6bf;
+  --fc-text-body:    #cbced5;
+  --fc-text-heading: #d8dadf;
+  --fc-text-bright:  #e4e6e9;
+
+  /* -- Ocean Blues -- */
+  --fc-act-subtle:  #5e81ac;
+  --fc-act-primary: #81a1c1;
+  --fc-act-focus:   #88c0d0;
+  --fc-act-active:  #8fbcbb;
+  --fc-act-decor:   #95b1b0;
+
+  /* -- Vivid Accents -- */
+  --fc-err:         #bf616a;
+  --fc-warn:        #ebcb8b;
+  --fc-success:     #a3be8c;
+  --fc-info:        #b48ead;
+  --fc-highlight:   #d08770;
+}
+```
 
 ## Example Implementations
 
@@ -106,5 +159,14 @@ A palette of expressive colors used to communicate important states and draw att
   <img src="https://github.com/cheycron/flat-cap-theme/blob/main/images/demo_windowsterminal.png?raw=true" alt="Flatcap Windows Terminal"/>
 </p>
 
+---
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/cheycron)
+<p align="center">
+  Distributed under the MIT License.
+</p>
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/cheycron">
+    <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee">
+  </a>
+</p>
