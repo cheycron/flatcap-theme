@@ -158,7 +158,6 @@ This mapping separates **Logic** (Blues/Cyans) from **Data** (Greens/Purples/Ora
 </p>
 
 #### [Obsidian](https://github.com/cheycron/flatcap-obsidian)
-![Downloads](https://img.shields.io/obsidian/downloads/theme/FlatCap?color=81a1c1&logo=obsidian)
 <p align="center">
   <a href="https://github.com/cheycron/flatcap-obsidian">
     <img src="https://raw.githubusercontent.com/cheycron/flatcap-obsidian/main/screenshot.png" alt="Flatcap Obsidian" width="100%"/>
