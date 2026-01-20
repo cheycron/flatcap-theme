@@ -149,22 +149,39 @@ This mapping separates **Logic** (Blues/Cyans) from **Data** (Greens/Purples/Ora
 
 ## Example Implementations
 
-#### [Visual Studio Code](https://github.com/cheycron/flat-cap-vscode)
-
+#### [Visual Studio Code](https://github.com/cheycron/flatcap-vscode)
 <p align="center">
-  <img src="https://github.com/cheycron/flat-cap-theme/blob/main/images/demo_vscode.png?raw=true" alt="Flatcap VSCode"/>
+  <a href="https://github.com/cheycron/flatcap-vscode">
+    <img src="https://raw.githubusercontent.com/cheycron/flatcap-vscode/main/images/screenshot.png" alt="Flatcap VS Code" width="100%"/>
+  </a>
 </p>
 
-#### [Obsidian](https://github.com/cheycron/flat-cap-obsidian)
-
+#### [Obsidian](https://github.com/cheycron/flatcap-obsidian)
 <p align="center">
-  <img src="https://github.com/cheycron/flat-cap-theme/blob/main/images/demo_obsidian.png?raw=true" alt="Flatcap Obsidian"/>
+  <a href="https://github.com/cheycron/flatcap-obsidian">
+    <img src="https://raw.githubusercontent.com/cheycron/flatcap-obsidian/main/screenshot.png" alt="Flatcap Obsidian" width="100%"/>
+  </a>
 </p>
 
-#### [Windows Terminal](https://github.com/cheycron/flat-cap-windows-terminal)
-
+#### [Windows Terminal](https://github.com/cheycron/flatcap-windows-terminal)
 <p align="center">
-  <img src="https://github.com/cheycron/flat-cap-theme/blob/main/images/demo_windowsterminal.png?raw=true" alt="Flatcap Windows Terminal"/>
+  <a href="https://github.com/cheycron/flatcap-windows-terminal">
+    <img src="https://raw.githubusercontent.com/cheycron/flatcap-windows-terminal/main/images/screenshot.png" alt="Flatcap Windows Terminal" width="100%"/>
+  </a>
+</p>
+
+#### [Firefox](https://github.com/cheycron/flatcap-firefox)
+<p align="center">
+  <a href="https://github.com/cheycron/flatcap-firefox">
+    <img src="https://raw.githubusercontent.com/cheycron/flatcap-firefox/main/images/screenshot.png" alt="Flatcap Firefox" width="100%"/>
+  </a>
+</p>
+
+#### [FreshRSS](https://github.com/cheycron/flatcap-freshrss)
+<p align="center">
+  <a href="https://github.com/cheycron/flatcap-freshrss">
+    <img src="https://raw.githubusercontent.com/cheycron/flatcap-freshrss/main/images/screenshot.png" alt="Flatcap FreshRSS" width="100%"/>
+  </a>
 </p>
 
 ---
