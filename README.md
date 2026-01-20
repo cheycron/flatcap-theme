@@ -150,6 +150,7 @@ This mapping separates **Logic** (Blues/Cyans) from **Data** (Greens/Purples/Ora
 ## Example Implementations
 
 #### [Visual Studio Code](https://github.com/cheycron/flatcap-vscode)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/cheycron.flatcap-theme?color=81a1c1&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=cheycron.flatcap-theme)
 <p align="center">
   <a href="https://github.com/cheycron/flatcap-vscode">
     <img src="https://raw.githubusercontent.com/cheycron/flatcap-vscode/main/images/screenshot.png" alt="Flatcap VS Code" width="100%"/>
@@ -157,6 +158,7 @@ This mapping separates **Logic** (Blues/Cyans) from **Data** (Greens/Purples/Ora
 </p>
 
 #### [Obsidian](https://github.com/cheycron/flatcap-obsidian)
+![Downloads](https://img.shields.io/obsidian/downloads/theme/Flatcap?color=81a1c1&logo=obsidian)
 <p align="center">
   <a href="https://github.com/cheycron/flatcap-obsidian">
     <img src="https://raw.githubusercontent.com/cheycron/flatcap-obsidian/main/screenshot.png" alt="Flatcap Obsidian" width="100%"/>
