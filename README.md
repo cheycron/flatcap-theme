@@ -150,7 +150,7 @@ This mapping separates **Logic** (Blues/Cyans) from **Data** (Greens/Purples/Ora
 ## Example Implementations
 
 #### [Visual Studio Code](https://github.com/cheycron/flatcap-vscode)
-[![Downloads](https://img.shields.io/visual-studio-marketplace/d/cheycron.flatcap-theme?color=81a1c1&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=cheycron.flatcap-theme)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/cheycron.flatcap-theme?color=81a1c1&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=cheycron.flatcap-theme)
 <p align="center">
   <a href="https://github.com/cheycron/flatcap-vscode">
     <img src="https://raw.githubusercontent.com/cheycron/flatcap-vscode/main/images/screenshot.png" alt="Flatcap VS Code" width="100%"/>
@@ -158,7 +158,7 @@ This mapping separates **Logic** (Blues/Cyans) from **Data** (Greens/Purples/Ora
 </p>
 
 #### [Obsidian](https://github.com/cheycron/flatcap-obsidian)
-![Downloads](https://img.shields.io/obsidian/downloads/theme/Flatcap?color=81a1c1&logo=obsidian)
+![Downloads](https://img.shields.io/badge/dynamic/json?logo=obsidian&color=81a1c1&label=downloads&query=%24%5B%27Flat%20Cap%27%5D&url=https%3A%2F%2Fraw.githubusercontent.com%2Fobsidianmd%2Fobsidian-releases%2Fmaster%2Fstats%2Ftheme-downloads.json)
 <p align="center">
   <a href="https://github.com/cheycron/flatcap-obsidian">
     <img src="https://raw.githubusercontent.com/cheycron/flatcap-obsidian/main/screenshot.png" alt="Flatcap Obsidian" width="100%"/>
