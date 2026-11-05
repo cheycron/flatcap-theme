@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "verifiedOn": "2026-11-05",
+  "files": {
+    "src/theme.json": "cfdc0c5991f0da132722e6ff2eb82e982272c3cad375b0cb9b8fbba754e04bac",
+    "src/theme.css": "a20b1b96d487bdd770837001582863c3a1f88555f027d974dddffa1fdbc3d31b",
+    "src/theme.scss": "0dde6d9b25e8882fd708e125940e790363ef79085889540424c392e83fbbdae9",
+    "scripts/build.py": "6cff9d6cf9464492608e3405e7293315501a816929f6101449b107c7c56efb62",
+    "scripts/validate.py": "49aaef216129ee2855d7d2da02627b5d008d2cf774f785b842bc5bfe577e08a5",
+    "tests/browser-check.js": "9abb38d299761c6bdd96e9fe122d2c009f499a762b561d0c5adbe997ef26531f",
+    "tests/sass-check.js": "a8aef5fc4fde289dff61e65eacb54671c45b6acb28dd1f80c3f4b0d809518bc5",
+    "tests/test_theme.py": "ff5d599f514b4c35ab44386a51f785b15d8a351893c778e1e5ac031d127b0f33",
+    "examples/index.html": "97f12be66bbe37b5c5719306e76d8a9ba90ee45500421ab4d09860148504674f",
+    "examples/example.css": "306c36267d88455a261ae6846209edb0ecda5f54eee4dc5aec3e3f31047ad04a",
+    "examples/example.js": "97dba4a3886de8d358f9fe1b21079d9ab7ecfddd6897d9f9cec10e0ef14a3b3d",
+    "examples/preferences.js": "be801dfca943c554f647134f7c1689d0317a8d460b1833d785060aae25f858ad",
+    "SKILL.md": "0de6d773fe2afd48633ba73f1a9b7c7afdab93d0298ac44f034b3981df70fe53",
+    "src/logo.svg": "69f997772e0072d5958c5a81ce2e2d71b8e3b9c80dcc1af30e85e2732143abea",
+    "src/readme_logo.svg": "08637e5c878777c8496c51042999d446abd8880676d92081c80773cde19e845b",
+    "images/logo.png": "832c8b11cbb3a44a17fed6c4527c9f8c8a60c99b75dd0d4f164709d41474d643",
+    "images/readme_logo.png": "f49ed59939092d8066852eb9262831da9c7c1072e70433b19b1aaa9d96b7e0d7"
+  },
+  "notes": "Core presentation and design guides use English. English example verified with 56/56 checks in Chromium 156.0.8078.79; current screenshots and capture hashes are in images/readme/manifest.json. Original browser report/captures remain historical. Tokens and brand geometry unchanged by this editorial update. Owner confirmed artwork modification/reuse permission; no publication performed."
+}

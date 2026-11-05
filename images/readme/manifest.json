@@ -1,0 +1,75 @@
+{
+  "version": "2.0.0",
+  "capturedOn": "2026-11-05",
+  "browser": "Chromium 156.0.8078.79",
+  "deviceScaleFactor": 1,
+  "preferences": {
+    "contrast": "standard",
+    "density": "comfortable"
+  },
+  "fonts": "QA fixtures identified by docs/evidence/font-manifest.json; Plex Regular only, other weights may be synthesized; binaries not distributed",
+  "browserRegression": {
+    "total": 56,
+    "passed": 56,
+    "suite": "tests/browser-check.js",
+    "scope": "English repository example; Chromium media emulation, not hardware/AT/user testing",
+    "browser": "Chromium 156.0.8078.79"
+  },
+  "inputs": {
+    "src/theme.json": "cfdc0c5991f0da132722e6ff2eb82e982272c3cad375b0cb9b8fbba754e04bac",
+    "src/theme.css": "a20b1b96d487bdd770837001582863c3a1f88555f027d974dddffa1fdbc3d31b",
+    "src/logo.svg": "69f997772e0072d5958c5a81ce2e2d71b8e3b9c80dcc1af30e85e2732143abea",
+    "scripts/build_visuals.py": "756c3f39bc5362f9280287c83f691b54edcc2d1725aa6cf1f80d3409e3ec7844",
+    "scripts/capture_visuals.js": "f7afb2de0364ac553fb5e48421b8c52bf3aaaad54519432f1d602781896e7748",
+    "docs/visual-preview.html": "b259d2e9b772cbffe91914770e542d41447415bae7cb1088fd28bd24848b27c4",
+    "examples/index.html": "97f12be66bbe37b5c5719306e76d8a9ba90ee45500421ab4d09860148504674f",
+    "examples/example.css": "306c36267d88455a261ae6846209edb0ecda5f54eee4dc5aec3e3f31047ad04a",
+    "examples/example.js": "97dba4a3886de8d358f9fe1b21079d9ab7ecfddd6897d9f9cec10e0ef14a3b3d",
+    "examples/preferences.js": "be801dfca943c554f647134f7c1689d0317a8d460b1833d785060aae25f858ad",
+    "tests/browser-check.js": "9abb38d299761c6bdd96e9fe122d2c009f499a762b561d0c5adbe997ef26531f",
+    "docs/evidence/font-manifest.json": "498d8716d5beeec0b26fa8f6cad59ab248defd29d547f84a53ac60f92dc42439"
+  },
+  "images": {
+    "images/readme/example-daylight.png": {
+      "sha256": "cfc7003e711cbdd5a09b6dd97e0626187edcb55694bed37864d0a3fb850581ae",
+      "dimensions": [
+        1280,
+        1405
+      ],
+      "kind": "repository example"
+    },
+    "images/readme/example-mobile.png": {
+      "sha256": "e5092d3be6957ef8d1488b5290d10fe389645a76d7c5be27b432ed275237012a",
+      "dimensions": [
+        375,
+        2517
+      ],
+      "kind": "repository example"
+    },
+    "images/readme/example-slate.png": {
+      "sha256": "989c9a07da4406529cfb3a092f430a0dc47c03aae8a51de1038c00b18f084683",
+      "dimensions": [
+        1280,
+        1405
+      ],
+      "kind": "repository example"
+    },
+    "images/readme/overview.png": {
+      "sha256": "b344ea18ee4b059681de47bf0f09d33db459b1d7d877effc4c0dcec94509f9bf",
+      "dimensions": [
+        1440,
+        1110
+      ],
+      "kind": "illustrative board"
+    },
+    "images/readme/palette.png": {
+      "sha256": "6fe63ce87fa9122f5c902619b6df3d8b97148d6c513167c2b64dd14bccb260da",
+      "dimensions": [
+        1440,
+        1210
+      ],
+      "kind": "illustrative board"
+    }
+  },
+  "language": "en"
+}

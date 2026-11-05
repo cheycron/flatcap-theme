@@ -1,0 +1,185 @@
+{
+  "method": "Pillow FreeType with RAQM; 14 px, weight 400, Inter optical size 14; default shaping; lengths in px; same nominal size is NOT equal perceived size",
+  "pillow": "13.0.0",
+  "raqm": true,
+  "samples": [
+    "Configuración del sistema",
+    "Administración de servicios",
+    "Última actualización: hace 5 minutos",
+    "Seleccionar todos los registros",
+    "Pendiente de revisión",
+    "Error de conexión con el servidor",
+    "Guardar cambios",
+    "CPU 24,8 % · RAM 16,2 GB",
+    "El servicio responde correctamente. Revisá los registros y la configuración antes de continuar.",
+    "ÁÉÍÓÚ áéíóú ñ Ñ ü ¿Qué pasó? ¡Conexión!",
+    "Il1 | O0 · 0123456789 · rn m",
+    "if (value !== null && total >= 10) return result;"
+  ],
+  "fonts": [
+    {
+      "family": "IBM Plex Sans",
+      "file": "IBMPlexSans-Regular.ttf",
+      "sha256": "975dcda37d80f038dcd143c22e33ca2d97a0cc5a929aace1c749153b0fe1afa5",
+      "metadata": "IBM Plex Sans\nRegular\n196935",
+      "axes": [],
+      "widths": [
+        162.0625,
+        172.5625,
+        230.6875,
+        192.0938,
+        135.2031,
+        205.875,
+        107.2656,
+        170.2188,
+        586.0469,
+        260.3438,
+        182.0938,
+        285.9531
+      ],
+      "uiCorpusTotal": 1375.9688,
+      "monoCell": 8.40625,
+      "asciiColumnsIn960px": 114
+    },
+    {
+      "family": "IBM Plex Sans Condensed",
+      "file": "IBMPlexSansCondensed-Regular.ttf",
+      "sha256": "87aaee6ba9d2f80b8a3c1f6669e8c3d478b28b482f1d804917b3894694ccc12b",
+      "metadata": "IBM Plex Sans Condensed,IBM Plex Sans Cond\nRegular\n196608",
+      "axes": [],
+      "widths": [
+        146.5469,
+        155.9688,
+        208.3594,
+        173.4844,
+        122.3438,
+        185.9062,
+        96.9375,
+        153.5156,
+        529.7188,
+        235.1094,
+        164.1406,
+        258.0156
+      ],
+      "uiCorpusTotal": 1243.0626,
+      "monoCell": 7.5625,
+      "asciiColumnsIn960px": 126
+    },
+    {
+      "family": "Inter",
+      "file": "Inter-VariableFont_opsz,wght.ttf",
+      "sha256": "0be2399ea925f1f83ff974764761da9860ec50742ed29a5d4c1ffd0c5c7ac3a8",
+      "metadata": "Inter\nRegular\n262210Inter\nThin\n262210Inter\nExtraLight\n262210Inter\nLight\n262210Inter\nMedium\n262210Inter\nSemiBold\n262210Inter\nBold\n262210Inter\nExtraBold\n262210Inter\nBlack\n262210Inter\n\n262210",
+      "axes": [
+        {
+          "minimum": 14,
+          "default": 14,
+          "maximum": 32,
+          "name": "Optical size"
+        },
+        {
+          "minimum": 100,
+          "default": 400,
+          "maximum": 900,
+          "name": "Weight"
+        }
+      ],
+      "widths": [
+        172.4062,
+        182.7656,
+        241.9219,
+        203.9844,
+        142.5,
+        219.9375,
+        113.2812,
+        177.6562,
+        623.6094,
+        278.0,
+        181.4688,
+        296.4688
+      ],
+      "uiCorpusTotal": 1454.453,
+      "monoCell": 8.828125,
+      "asciiColumnsIn960px": 108
+    },
+    {
+      "family": "Source Sans 3",
+      "file": "SourceSans3-VariableFont_wght.ttf",
+      "sha256": "800f5dca8b08b34304d233fc5f97446d479e8f56c4de58fcefa7eb431b4de36c",
+      "metadata": "Source Sans 3,Source Sans 3 ExtraLight\nExtraLight,Regular\n200016Source Sans 3,Source Sans 3 ExtraLight\nLight\n200016Source Sans 3,Source Sans 3 ExtraLight\nRegular\n200016Source Sans 3,Source Sans 3 ExtraLight\nMedium\n200016Source Sans 3,Source Sans 3 ExtraLight\nSemiBold\n200016Source Sans 3,Source Sans 3 ExtraLight\nBold\n200016Source Sans 3,Source Sans 3 ExtraLight\nExtraBold\n200016Source Sans 3,Source Sans 3 ExtraLight\nBlack\n200016Source Sans 3,Source Sans 3 ExtraLight\n\n200016",
+      "axes": [
+        {
+          "minimum": 200,
+          "default": 200,
+          "maximum": 900,
+          "name": "Weight"
+        }
+      ],
+      "widths": [
+        151.0156,
+        160.0312,
+        214.5469,
+        177.1719,
+        126.0156,
+        191.25,
+        100.0312,
+        148.0156,
+        542.9844,
+        239.7031,
+        154.0312,
+        258.25
+      ],
+      "uiCorpusTotal": 1268.078,
+      "monoCell": 6.953125,
+      "asciiColumnsIn960px": 138
+    },
+    {
+      "family": "Cascadia Code",
+      "file": "CascadiaCode.ttf",
+      "sha256": "3d5f86021405279752f4b5b2adde7a0755462f6f0f05bbe5b7b15ff21e080f7c",
+      "metadata": "Cascadia Code\nRegular\n131409510",
+      "axes": [],
+      "widths": [
+        205.0781,
+        221.4844,
+        295.3125,
+        254.2969,
+        172.2656,
+        270.7031,
+        123.0469,
+        196.875,
+        779.2969,
+        319.9219,
+        229.6875,
+        401.9531
+      ],
+      "uiCorpusTotal": 1739.0625,
+      "monoCell": 8.203125,
+      "asciiColumnsIn960px": 117
+    },
+    {
+      "family": "JetBrains Mono (Nerd Font build)",
+      "file": "JetBrainsMonoNerdFontMono-Regular.ttf",
+      "sha256": "9e4dad8c34fb31045d53790a936a0afc3aae3fb830e874faadf3670662b04853",
+      "metadata": "JetBrainsMono Nerd Font Mono,JetBrainsMono NFM\nRegular\n150994",
+      "axes": [],
+      "widths": [
+        210.1562,
+        226.9688,
+        302.625,
+        260.5938,
+        176.5312,
+        277.4062,
+        126.0938,
+        201.75,
+        798.5938,
+        327.8438,
+        235.375,
+        411.9062
+      ],
+      "uiCorpusTotal": 1782.125,
+      "monoCell": 8.40625,
+      "asciiColumnsIn960px": 114
+    }
+  ]
+}

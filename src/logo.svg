@@ -1,99 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="500"
-   height="500"
-   viewBox="0 0 132.29167 132.29167"
-   version="1.1"
-   id="svg1"
-   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
-   sodipodi:docname="logo.svg"
-   inkscape:export-filename="..\images\logo.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="px"
-     inkscape:zoom="2"
-     inkscape:cx="311.25"
-     inkscape:cy="272.75"
-     inkscape:window-width="2560"
-     inkscape:window-height="1369"
-     inkscape:window-x="1072"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="g2"
-     showgrid="false" />
-  <defs
-     id="defs1">
-    <inkscape:path-effect
-       effect="fillet_chamfer"
-       id="path-effect6"
-       is_visible="true"
-       lpeversion="1"
-       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,8.2644278,0,1 @ F,0,0,1,0,0,0,1"
-       radius="0"
-       unit="px"
-       method="auto"
-       mode="F"
-       chamfer_steps="1"
-       flexible="false"
-       use_knot_distance="true"
-       apply_no_radius="true"
-       apply_with_radius="true"
-       only_selected="false"
-       hide_knots="false" />
-  </defs>
-  <g
-     id="g5">
-    <circle
-       style="fill:#191c22;fill-opacity:1;stroke-width:0.57893"
-       id="path4"
-       cx="66.145836"
-       cy="66.145836"
-       r="66.145836"
-       inkscape:label="circle" />
-    <g
-       id="g2"
-       transform="matrix(1.2731729,0,0,1.2731729,-39.161914,-75.743492)">
-      <g
-         id="g1">
-        <path
-           fill="#121418"
-           d="m 61.854317,107.83422 c 0,0 -8.388549,1.4218 -11.017882,7.04046 -2.629333,5.61866 18.757712,19.95095 54.473805,11.3628 8.5433,-2.05429 11.27419,-2.3904 13.96586,-3.1504 4.38772,-1.23888 10.51904,-6.34454 10.04049,-10.83444 -0.25717,-2.41282 -1.94347,-5.64211 -6.53701,-11.86063 -7.00665,-9.485262 -60.925263,7.44221 -60.925263,7.44221 z"
-           id="path1"
-           style="fill:#121418;fill-opacity:1;stroke-width:0.0821388"
-           sodipodi:nodetypes="csscsc"
-           inkscape:path-effect="#path-effect6"
-           inkscape:original-d="m 61.854317,107.83422 c 0,0 -8.388549,1.4218 -11.017882,7.04046 -2.629333,5.61866 18.757712,19.95095 54.473805,11.3628 14.58283,-3.50653 12.23054,-2.00695 21.65514,-6.15449 2.30474,-6.7551 5.43216,-6.67064 -4.1858,-19.69098 -7.00665,-9.485262 -60.925263,7.44221 -60.925263,7.44221 z" />
-        <path
-           d="m 103.39157,105.40585 c -13.722973,0.76988 -25.773059,7.98724 -37.794824,13.91507 -8.090565,3.94941 -16.839527,7.3927 -25.990605,7.12559 -1.947103,0.0856 -5.349485,-6.38398 -4.182419,-0.12958 1.932138,3.33107 4.677283,3.57178 8.169731,4.11916 5.267904,0.82565 14.414091,-0.91145 22.798267,-4.29022 11.506045,-6.20436 23.07198,-12.66553 35.72602,-16.22235 5.05176,-1.388 15.26359,-1.97696 20.44766,-2.60753 -4.60824,-1.31206 -14.38164,-1.91323 -19.17383,-1.91014 z"
-           style="fill:#2e3440;stroke-width:0.0864059"
-           id="path5"
-           sodipodi:nodetypes="ccccscccc" />
-        <path
-           fill="#535353"
-           d="m 87.570196,84.855583 c -29.87166,2.333652 -52.473901,24.378837 -52.380323,39.362317 1.868528,1.31855 3.567788,2.2723 4.948468,2.2723 22.59049,0 39.156758,-19.57837 63.253299,-21.08443 4.93966,0 9.3901,0.43921 14.33929,0.97688 4.83447,0.93334 9.8778,1.46383 11.46749,5.79881 0.0429,0.0235 0.0848,0.0489 0.1278,0.0729 -1.48714,-6.22279 -9.30523,-29.933964 -41.756024,-27.398727 z"
-           id="path3"
-           style="fill:#484f5c;fill-opacity:1;stroke-width:0.0864059"
-           sodipodi:nodetypes="ccscccccc" />
-      </g>
-    </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Existing cap geometry preserved from the pre-2.0 repository. Related source carried: Designed by Vexels.com - 2021 All Rights Reserved - https://vexels.com/terms-and-conditions/ . See docs/branding.md; no new rights claim. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 132.29167 132.29167" role="img" aria-labelledby="logo-title logo-description">
+  <title id="logo-title">Flatcap</title>
+  <desc id="logo-description">Mineral-blue flat cap on a matte graphite disc.</desc>
+  <circle cx="66.145836" cy="66.145836" r="66.145836" data-fc-role="tile" fill="#191D22"/>
+  <g transform="matrix(1.2731729,0,0,1.2731729,-39.161914,-75.743492)">
+    <path id="cap-underside" data-fc-role="cap.underside" fill="#344D62" d="m 61.854317,107.83422 c 0,0 -8.388549,1.4218 -11.017882,7.04046 -2.629333,5.61866 18.757712,19.95095 54.473805,11.3628 8.5433,-2.05429 11.27419,-2.3904 13.96586,-3.1504 4.38772,-1.23888 10.51904,-6.34454 10.04049,-10.83444 -0.25717,-2.41282 -1.94347,-5.64211 -6.53701,-11.86063 -7.00665,-9.485262 -60.925263,7.44221 -60.925263,7.44221 z"/>
+    <path id="cap-band" data-fc-role="cap.band" fill="#638BAA" d="m 103.39157,105.40585 c -13.722973,0.76988 -25.773059,7.98724 -37.794824,13.91507 -8.090565,3.94941 -16.839527,7.3927 -25.990605,7.12559 -1.947103,0.0856 -5.349485,-6.38398 -4.182419,-0.12958 1.932138,3.33107 4.677283,3.57178 8.169731,4.11916 5.267904,0.82565 14.414091,-0.91145 22.798267,-4.29022 11.506045,-6.20436 23.07198,-12.66553 35.72602,-16.22235 5.05176,-1.388 15.26359,-1.97696 20.44766,-2.60753 -4.60824,-1.31206 -14.38164,-1.91323 -19.17383,-1.91014 z"/>
+    <path id="cap-crown" data-fc-role="cap.crown" fill="#9BBFDF" d="m 87.570196,84.855583 c -29.87166,2.333652 -52.473901,24.378837 -52.380323,39.362317 1.868528,1.31855 3.567788,2.2723 4.948468,2.2723 22.59049,0 39.156758,-19.57837 63.253299,-21.08443 4.93966,0 9.3901,0.43921 14.33929,0.97688 4.83447,0.93334 9.8778,1.46383 11.46749,5.79881 0.0429,0.0235 0.0848,0.0489 0.1278,0.0729 -1.48714,-6.22279 -9.30523,-29.933964 -41.756024,-27.398727 z"/>
   </g>
-  <g
-     inkscape:label="Capa 1"
-     inkscape:groupmode="layer"
-     id="layer1" />
 </svg>

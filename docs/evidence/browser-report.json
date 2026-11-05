@@ -1,0 +1,465 @@
+{
+  "version": "2.0.0",
+  "browser": "154.0.8037.0",
+  "scope": "Repository example in Chromium; media emulation, not physical hardware/AT/user testing",
+  "fonts": "QA-only supplied font files; see hash manifest",
+  "total": 56,
+  "passed": 56,
+  "results": [
+    {
+      "name": "QA font files load: Plex Sans, Condensed, Cascadia Code",
+      "passed": true,
+      "details": [
+        {
+          "family": "IBM Plex Sans",
+          "loaded": true
+        },
+        {
+          "family": "IBM Plex Sans Condensed",
+          "loaded": true
+        },
+        {
+          "family": "Cascadia Code",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "name": "effective token export slate/standard",
+      "passed": true,
+      "details": {
+        "roles": 43
+      }
+    },
+    {
+      "name": "density independent of font slate/standard",
+      "passed": true,
+      "details": {
+        "before": {
+          "size": "14px",
+          "family": "\"IBM Plex Sans\", \"Segoe UI\", system-ui, sans-serif",
+          "height": 40
+        },
+        "after": {
+          "size": "14px",
+          "family": "\"IBM Plex Sans\", \"Segoe UI\", system-ui, sans-serif",
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "reflow 320px slate/standard/comfortable",
+      "passed": true,
+      "details": {
+        "viewport": 305,
+        "scroll": 305
+      }
+    },
+    {
+      "name": "reflow 375px slate/standard/comfortable",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "scroll": 360
+      }
+    },
+    {
+      "name": "reflow 768px slate/standard/comfortable",
+      "passed": true,
+      "details": {
+        "viewport": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "reflow 1280px slate/standard/comfortable",
+      "passed": true,
+      "details": {
+        "viewport": 1265,
+        "scroll": 1265
+      }
+    },
+    {
+      "name": "reflow 320px slate/standard/compact",
+      "passed": true,
+      "details": {
+        "viewport": 305,
+        "scroll": 305
+      }
+    },
+    {
+      "name": "reflow 375px slate/standard/compact",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "scroll": 360
+      }
+    },
+    {
+      "name": "reflow 768px slate/standard/compact",
+      "passed": true,
+      "details": {
+        "viewport": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "reflow 1280px slate/standard/compact",
+      "passed": true,
+      "details": {
+        "viewport": 1265,
+        "scroll": 1265
+      }
+    },
+    {
+      "name": "effective token export slate/more",
+      "passed": true,
+      "details": {
+        "roles": 43
+      }
+    },
+    {
+      "name": "density independent of font slate/more",
+      "passed": true,
+      "details": {
+        "before": {
+          "size": "14px",
+          "family": "\"IBM Plex Sans\", \"Segoe UI\", system-ui, sans-serif",
+          "height": 40
+        },
+        "after": {
+          "size": "14px",
+          "family": "\"IBM Plex Sans\", \"Segoe UI\", system-ui, sans-serif",
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "reflow 320px slate/more/comfortable",
+      "passed": true,
+      "details": {
+        "viewport": 305,
+        "scroll": 305
+      }
+    },
+    {
+      "name": "reflow 375px slate/more/comfortable",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "scroll": 360
+      }
+    },
+    {
+      "name": "reflow 768px slate/more/comfortable",
+      "passed": true,
+      "details": {
+        "viewport": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "reflow 1280px slate/more/comfortable",
+      "passed": true,
+      "details": {
+        "viewport": 1265,
+        "scroll": 1265
+      }
+    },
+    {
+      "name": "reflow 320px slate/more/compact",
+      "passed": true,
+      "details": {
+        "viewport": 305,
+        "scroll": 305
+      }
+    },
+    {
+      "name": "reflow 375px slate/more/compact",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "scroll": 360
+      }
+    },
+    {
+      "name": "reflow 768px slate/more/compact",
+      "passed": true,
+      "details": {
+        "viewport": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "reflow 1280px slate/more/compact",
+      "passed": true,
+      "details": {
+        "viewport": 1265,
+        "scroll": 1265
+      }
+    },
+    {
+      "name": "effective token export daylight/standard",
+      "passed": true,
+      "details": {
+        "roles": 43
+      }
+    },
+    {
+      "name": "density independent of font daylight/standard",
+      "passed": true,
+      "details": {
+        "before": {
+          "size": "14px",
+          "family": "\"IBM Plex Sans\", \"Segoe UI\", system-ui, sans-serif",
+          "height": 40
+        },
+        "after": {
+          "size": "14px",
+          "family": "\"IBM Plex Sans\", \"Segoe UI\", system-ui, sans-serif",
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "reflow 320px daylight/standard/comfortable",
+      "passed": true,
+      "details": {
+        "viewport": 305,
+        "scroll": 305
+      }
+    },
+    {
+      "name": "reflow 375px daylight/standard/comfortable",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "scroll": 360
+      }
+    },
+    {
+      "name": "reflow 768px daylight/standard/comfortable",
+      "passed": true,
+      "details": {
+        "viewport": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "reflow 1280px daylight/standard/comfortable",
+      "passed": true,
+      "details": {
+        "viewport": 1265,
+        "scroll": 1265
+      }
+    },
+    {
+      "name": "reflow 320px daylight/standard/compact",
+      "passed": true,
+      "details": {
+        "viewport": 305,
+        "scroll": 305
+      }
+    },
+    {
+      "name": "reflow 375px daylight/standard/compact",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "scroll": 360
+      }
+    },
+    {
+      "name": "reflow 768px daylight/standard/compact",
+      "passed": true,
+      "details": {
+        "viewport": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "reflow 1280px daylight/standard/compact",
+      "passed": true,
+      "details": {
+        "viewport": 1265,
+        "scroll": 1265
+      }
+    },
+    {
+      "name": "effective token export daylight/more",
+      "passed": true,
+      "details": {
+        "roles": 43
+      }
+    },
+    {
+      "name": "density independent of font daylight/more",
+      "passed": true,
+      "details": {
+        "before": {
+          "size": "14px",
+          "family": "\"IBM Plex Sans\", \"Segoe UI\", system-ui, sans-serif",
+          "height": 40
+        },
+        "after": {
+          "size": "14px",
+          "family": "\"IBM Plex Sans\", \"Segoe UI\", system-ui, sans-serif",
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "reflow 320px daylight/more/comfortable",
+      "passed": true,
+      "details": {
+        "viewport": 305,
+        "scroll": 305
+      }
+    },
+    {
+      "name": "reflow 375px daylight/more/comfortable",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "scroll": 360
+      }
+    },
+    {
+      "name": "reflow 768px daylight/more/comfortable",
+      "passed": true,
+      "details": {
+        "viewport": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "reflow 1280px daylight/more/comfortable",
+      "passed": true,
+      "details": {
+        "viewport": 1265,
+        "scroll": 1265
+      }
+    },
+    {
+      "name": "reflow 320px daylight/more/compact",
+      "passed": true,
+      "details": {
+        "viewport": 305,
+        "scroll": 305
+      }
+    },
+    {
+      "name": "reflow 375px daylight/more/compact",
+      "passed": true,
+      "details": {
+        "viewport": 360,
+        "scroll": 360
+      }
+    },
+    {
+      "name": "reflow 768px daylight/more/compact",
+      "passed": true,
+      "details": {
+        "viewport": 753,
+        "scroll": 753
+      }
+    },
+    {
+      "name": "reflow 1280px daylight/more/compact",
+      "passed": true,
+      "details": {
+        "viewport": 1265,
+        "scroll": 1265
+      }
+    },
+    {
+      "name": "Condensed is opt-in and independent of density",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "system light + more and manual override precedence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "system dark + no-preference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "literal ligatures disabled",
+      "passed": true,
+      "details": {
+        "ligatures": "none",
+        "features": "\"calt\" 0, \"liga\" 0"
+      }
+    },
+    {
+      "name": "invalid name is associated, persistent and focused",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "successful save persists text, avoids injection and preserves focus",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "readonly is focusable, disabled action is not",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "200% root text and WCAG text spacing: no page overflow",
+      "passed": true,
+      "details": {
+        "viewport": 1265,
+        "scroll": 1265
+      }
+    },
+    {
+      "name": "reduced motion token",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "forced colors retains borders and keyboard focus",
+      "passed": true,
+      "details": {
+        "border": "solid",
+        "outline": "solid",
+        "width": "2px",
+        "focused": true
+      }
+    },
+    {
+      "name": "preference restore after reload",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "keyboard skip link and visible focus",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no-JavaScript baseline",
+      "passed": true,
+      "details": {
+        "viewport": 305,
+        "scroll": 305
+      }
+    },
+    {
+      "name": "invalid stored preferences fall back safely",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "JavaScript runtime errors",
+      "passed": true,
+      "details": null
+    }
+  ]
+}

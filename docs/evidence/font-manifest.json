@@ -1,0 +1,14 @@
+[
+  {
+    "file": "IBMPlexSans-Regular.ttf",
+    "sha256": "975dcda37d80f038dcd143c22e33ca2d97a0cc5a929aace1c749153b0fe1afa5"
+  },
+  {
+    "file": "IBMPlexSansCondensed-Regular.ttf",
+    "sha256": "87aaee6ba9d2f80b8a3c1f6669e8c3d478b28b482f1d804917b3894694ccc12b"
+  },
+  {
+    "file": "CascadiaCode.ttf",
+    "sha256": "3d5f86021405279752f4b5b2adde7a0755462f6f0f05bbe5b7b15ff21e080f7c"
+  }
+]

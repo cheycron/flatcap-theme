@@ -1,1 +1,8 @@
 .vscode
+
+# Local development artifacts
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.test-results/

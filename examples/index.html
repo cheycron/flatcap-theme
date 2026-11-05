@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" data-fc-theme="slate" data-fc-contrast="standard" data-fc-density="comfortable">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>Flatcap 2.0 — visual example</title>
+  <link rel="icon" href="../src/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../src/theme.css">
+  <script src="preferences.js"></script>
+  <link rel="stylesheet" href="example.css">
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<div class="shell">
+  <header class="masthead">
+    <a class="brand" href="../README.md"><img src="../src/logo.svg" width="40" height="40" alt=""><span>Flatcap <small>Quiet precision / 2.0</small></span></a>
+    <span class="meta">Interactive example · sample data</span>
+  </header>
+  <main id="content" tabindex="-1">
+    <div class="intro"><div><p class="eyebrow">VISUAL SYSTEM</p><h1>Less noise. More context.</h1><p>A workspace with clear hierarchy and explicit states. Change the preferences to explore the same data without changing its meaning.</p></div><a href="../docs/usage.md">Usage guide →</a></div>
+    <fieldset class="preferences" disabled id="preferences"><legend>Example preferences</legend>
+      <label for="theme">Mode<select id="theme" name="theme"><option value="slate">Slate</option><option value="daylight">Daylight</option><option value="system">System</option></select></label>
+      <label for="contrast">Contrast<select id="contrast" name="contrast"><option value="standard">Standard</option><option value="more">Increased</option><option value="system">System</option></select></label>
+      <label for="density">Density<select id="density" name="density"><option value="comfortable">Comfortable</option><option value="compact">Compact</option></select></label>
+      <label class="check"><input type="checkbox" id="condensed"> Condensed labels</label>
+    </fieldset>
+    <noscript><p>Without JavaScript, the example remains in Slate. Preferences and the local form are disabled.</p></noscript>
+    <div class="workspace">
+      <section aria-labelledby="services-title"><div class="section-heading"><h2 id="services-title">Services</h2><span class="meta">3 sample records</span></div>
+        <div class="table-scroll" tabindex="0" role="region" aria-label="Services table; horizontal scrolling available">
+          <table><caption class="sr-only">Sample service status and latency in milliseconds</caption><thead><tr><th scope="col">Service</th><th scope="col">Status</th><th scope="col" class="number">Latency</th></tr></thead><tbody>
+          <tr><th scope="row" class="dense-label">Operations API</th><td><span class="status success">✓ Available</span></td><td class="number">42 ms</td></tr>
+          <tr><th scope="row" class="dense-label">Report processing</th><td><span class="status warning">! Under review</span></td><td class="number">218 ms</td></tr>
+          <tr><th scope="row" class="dense-label">Audit archive</th><td><span class="status danger">× Offline</span></td><td class="number">No data</td></tr>
+          </tbody></table>
+        </div>
+        <section class="code-sample" aria-labelledby="code-title"><h3 id="code-title">Code and literal text</h3><pre tabindex="0" aria-label="Code example"><code><span class="comment">// Different contexts, one system.</span>
+<span class="keyword">const</span> retry = <span class="number-code">3</span>;
+<span class="keyword">if</span> (service !== <span class="keyword">null</span>) {
+  <span class="function">connect</span>(<span class="string">"operations"</span>);
+}</code></pre><p class="literal">ID: fc-2.0 / Il1-O0-rn-m / !== → copyable text</p></section>
+      </section>
+      <section class="settings" aria-labelledby="settings-title"><h2 id="settings-title">Example settings</h2><p class="help">Try the form to see field feedback and a persistent confirmation. No data is sent and no services are changed.</p>
+        <form id="settings-form" novalidate>
+          <fieldset id="settings-fields" disabled><legend class="sr-only">Example settings fields</legend>
+          <label for="service-name">Service name</label><input id="service-name" name="service-name" value="Operations" required aria-describedby="name-help name-error">
+          <p class="help" id="name-help">Use a name that makes the service easy to recognize.</p><p class="error" id="name-error" hidden>Enter a name before saving.</p>
+          <label for="environment">Read-only environment</label><input id="environment" value="Local demo" readonly>
+          <div class="actions"><button class="primary" type="submit" id="save">Save example</button><button type="button" disabled>Publish</button></div>
+          <p class="help">Publishing is disabled: this example is not connected to a server.</p><p id="form-status" role="status" aria-live="polite" aria-atomic="true"></p>
+          </fieldset>
+        </form>
+      </section>
+    </div>
+    <section class="data-section" aria-labelledby="data-title"><div class="section-heading"><h2 id="data-title">Data colors identify, not judge</h2><span class="meta">Volume by category · sample values</span></div><p class="help">Each series keeps its identity; values and labels convey the information without relying on color.</p>
+      <dl class="data-list"><div><dt><span class="mark series-1" aria-hidden="true"></span>01 · Queries</dt><dd>128</dd></div><div><dt><span class="mark series-2" aria-hidden="true"></span>02 · Reports</dt><dd>96</dd></div><div><dt><span class="mark series-3" aria-hidden="true"></span>03 · Events</dt><dd>72</dd></div><div><dt><span class="mark series-4" aria-hidden="true"></span>04 · Files</dt><dd>54</dd></div><div><dt><span class="mark series-5" aria-hidden="true"></span>05 · Sessions</dt><dd>32</dd></div><div><dt><span class="mark series-6" aria-hidden="true"></span>06 · Tasks</dt><dd>18</dd></div></dl>
+    </section>
+    <footer><p>Shared tokens, adaptable components. Fonts use local families or fallbacks; no fonts are downloaded.</p><a href="../docs/accessibility.md">Accessibility guidelines</a></footer>
+  </main>
+</div>
+<script src="example.js"></script>
+</body>
+</html>

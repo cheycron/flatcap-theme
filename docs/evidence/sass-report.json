@@ -1,0 +1,6 @@
+{
+  "version": "2.0.0",
+  "sass": "dart-sass\t1.93.2\t(Sass Compiler)\t[Dart]\ndart2js\t3.9.3\t(Dart Compiler)\t[Dart]",
+  "checks": 15,
+  "passed": 15
+}

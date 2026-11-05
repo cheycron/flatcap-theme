@@ -1,198 +1,135 @@
-# Flatcap UI Theme
+# Flatcap — Quiet precision
 
-![Version](https://img.shields.io/badge/version-1.0.0-blueviolet) ![License](https://img.shields.io/badge/license-MIT-blue)
+<p align="center"><img src="images/readme_logo.png" alt="Flatcap — Quiet precision" width="207" height="300"></p>
 
-**Flatcap** is a design system and color scheme tailored for application interfaces, code editors, and data-dense dashboards. Drawing inspiration from the *Nord theme*, it embraces principles of calm, clean aesthetics, and a dimmed pastel color approach to reduce eye strain during long coding or administration sessions.
+**Flatcap is a semantic visual system for focused work:** application interfaces, code, documentation and data-dense dashboards. Matte graphite, mineral blue, IBM Plex and Cascadia; two independently tuned modes, **Slate** and **Daylight**.
 
-## 1. Philosophy
+> The interface organizes. Content takes the foreground. Color informs.
 
-Flatcap is built to be:
+This is the **core of Flatcap**: the shared colors, typography, design principles and tokens that give Flatcap-based projects a consistent visual language. Use it as a foundation for a new interface or adapt it to the tools you already work with.
 
-- **Minimalist:** Reduces visual noise by avoiding harsh contrasts and saturated primaries.
-- **Comfortable:** Specifically tuned for low-light environments; low contrast helps maintain focus without fatigue.
-- **Modern:** Uses a flat, matte color finish that feels distinct yet familiar.
+## Flatcap at a glance
 
-## 2. Naming Conventions
+![Flatcap 2.0: the same workspace in Slate and Daylight, with matte surfaces, mineral-blue actions, explicit feedback and restrained syntax colors](images/readme/overview.png)
 
-To maintain brand consistency, always adhere to these naming rules:
+**Quiet precision** means hierarchy before decoration: neutral surfaces organize the workspace, mineral blue identifies interaction, and feedback combines color with words and symbols. Content stays in the foreground; the interface provides structure without competing for attention.
 
-*   **Official Name:** Always write as **Flatcap** (Single word, capitalized 'F').
-*   **Prohibited Forms:** Never use "Flat Cap" (with space) or "Flat-Cap" (with hyphen).
-*   **Variables:** Use `flatcap` (all lowercase) ONLY when the technical context (e.g., code variables, file paths) strictly requires lowercase.
+### Two modes, one visual language
 
-## 3. Technical Palette Definitions
+- **Slate:** matte graphite surfaces, light text and a restrained mineral-blue accent.
+- **Daylight:** soft light surfaces, dark text and the same hierarchy expressed with independently tuned colors.
 
-The system relies on **20 core colors** divided into four distinct families.
-*Note: This specification includes semantic optimizations for better accessibility and state recognition.*
+The modes share semantic roles, not identical values. Daylight is not an inversion of Slate. Contrast and spacing density are independent preferences, so the interface can adapt without changing its identity.
 
-### 🌑 Deep Twilight (Structural)
-Used for the structural foundation of the interface. The contrast ratio between levels is tuned to create depth without using heavy drop shadows.
+### Color by purpose
 
-| Token ID | Swatch | Variable Name | Hex Value | Usage |
-| :--- | :---: | :--- | :--- | :--- |
-| **FC-00** | <img src="https://placehold.co/100x40/121418/121418/png" width="50" height="20" alt="FC-00"/> | `bg-main` | `#121418` | **Canvas.** The deepest shade. Main editor background. |
-| **FC-01** | <img src="https://placehold.co/100x40/191c22/191c22/png" width="50" height="20" alt="FC-01"/> | `bg-surface` | `#191c22` | **Panels.** Sidebars, tree views, terminal backgrounds. |
-| **FC-02** | <img src="https://placehold.co/100x40/2e3440/2e3440/png" width="50" height="20" alt="FC-02"/> | `bg-elevated` | `#2e3440` | **Float.** Modals, popups, cards, dropdowns. |
-| **FC-03** | <img src="https://placehold.co/100x40/3b4252/3b4252/png" width="50" height="20" alt="FC-03"/> | `ui-border` | `#3b4252` | **Borders.** Splitters, rulers, input borders. |
-| **FC-04** | <img src="https://placehold.co/100x40/484f5c/484f5c/png" width="50" height="20" alt="FC-04"/> | `ui-detail` | `#484f5c` | **Details.** Scrollbars, disabled states, subtle shadows. |
+![Selected semantic color roles in Slate and Daylight: surfaces, text and borders, interaction, feedback foregrounds and six categorical data colors, with role names and hex values](images/readme/palette.png)
 
-### 🌫️ Dawnlight (Typography)
-A monochromatic scale designed to provide text hierarchy while maintaining low contrast relative to the background.
+Colors are named for **what they do**: surfaces, text, borders, interaction, feedback, syntax and data. Each mode provides **43 color roles**. A shared hex value does not make two roles interchangeable.
 
-| Token ID | Swatch | Variable Name | Hex Value | Usage |
-| :--- | :---: | :--- | :--- | :--- |
-| **FC-05** | <img src="https://placehold.co/100x40/6a7280/6a7280/png" width="50" height="20" alt="FC-05"/> | `text-faint` | `#6a7280` | **Ignored.** Inactive line numbers, invisible characters. |
-| **FC-06** | <img src="https://placehold.co/100x40/b2b6bf/b2b6bf/png" width="50" height="20" alt="FC-06"/> | `text-muted` | `#b2b6bf` | **Metadata.** Comments, timestamps, breadcrumbs. |
-| **FC-07** | <img src="https://placehold.co/100x40/cbced5/cbced5/png" width="50" height="20" alt="FC-07"/> | `text-body` | `#cbced5` | **Standard.** Primary body text. Optimized for readability. |
-| **FC-08** | <img src="https://placehold.co/100x40/d8dadf/d8dadf/png" width="50" height="20" alt="FC-08"/> | `text-heading` | `#d8dadf` | **Titles.** Headings, active file names. |
-| **FC-09** | <img src="https://placehold.co/100x40/e4e6e9/e4e6e9/png" width="50" height="20" alt="FC-09"/> | `text-bright` | `#e4e6e9` | **Emphasis.** Bold text, hover states, strong highlights. |
+Mineral blue identifies interaction. Feedback colors express status alongside labels and symbols. The six categorical data colors identify series independently of success, warning or error.
 
-### 🌊 Ocean Blues (Primary Interaction)
-The core brand identity. Cool, calming blues used for navigation, selection, and primary actions.
+[Explore the complete palette and tokens →](docs/palette.md)
 
-| Token ID | Swatch | Variable Name | Hex Value | Usage |
-| :--- | :---: | :--- | :--- | :--- |
-| **FC-10** | <img src="https://placehold.co/100x40/5e81ac/5e81ac/png" width="50" height="20" alt="FC-10"/> | `act-subtle` | `#5e81ac` | **Secondary.** Icon buttons, unselected tabs. |
-| **FC-11** | <img src="https://placehold.co/100x40/81a1c1/81a1c1/png" width="50" height="20" alt="FC-11"/> | `act-primary` | `#81a1c1` | **Brand.** Primary buttons, links, key functions. |
-| **FC-12** | <img src="https://placehold.co/100x40/88c0d0/88c0d0/png" width="50" height="20" alt="FC-12"/> | `act-focus` | `#88c0d0` | **Focus.** Selection highlights, focus rings, carets. |
-| **FC-13** | <img src="https://placehold.co/100x40/8fbcbb/8fbcbb/png" width="50" height="20" alt="FC-13"/> | `act-active` | `#8fbcbb` | **Active.** Toggles on, pressed states, progress bars. |
-| **FC-14** | <img src="https://placehold.co/100x40/95b1b0/95b1b0/png" width="50" height="20" alt="FC-14"/> | `act-decor` | `#95b1b0` | **Ambient.** Glow effects, illustration fills. |
+## Design principles
 
-### 🚥 Vivid Accents (Semantic Feedback)
-Strictly semantic colors. These have been optimized to diverge from the blue spectrum to ensure errors and warnings are instantly engaging.
+- **Hierarchy before decoration.** Organize through spacing, alignment, typography and clear headings.
+- **Useful color.** Keep surfaces and ordinary metrics neutral; reserve color for actions, states and meaningful distinctions.
+- **Matte, deliberate geometry.** Use a 4px spacing grid, subtle separators and modest corner radii. Elevation comes from surface and border; shadows belong to overlays.
+- **Density without smaller text.** Comfortable and Compact adjust spacing, not the type scale. Condensed labels are a separate choice.
+- **Explicit interaction.** Give focus, selection, feedback and errors distinct signals. Meaning should not depend on color alone.
+- **User control.** Support light and dark preferences, increased contrast, scalable text and reduced motion.
 
-| Token ID | Swatch | Variable Name | Hex Value | Usage |
-| :--- | :---: | :--- | :--- | :--- |
-| **FC-15** | <img src="https://placehold.co/100x40/bf616a/bf616a/png" width="50" height="20" alt="FC-15"/> | `state-error` | `#bf616a` | **Error.** Validation errors, destructive actions (Red). |
-| **FC-16** | <img src="https://placehold.co/100x40/ebcb8b/ebcb8b/png" width="50" height="20" alt="FC-16"/> | `state-warn` | `#ebcb8b` | **Warning.** Alerts, deprecation notices (Amber). |
-| **FC-17** | <img src="https://placehold.co/100x40/a3be8c/a3be8c/png" width="50" height="20" alt="FC-17"/> | `state-success` | `#a3be8c` | **Success.** Confirmations, passes, added lines (Sage). |
-| **FC-18** | <img src="https://placehold.co/100x40/b48ead/b48ead/png" width="50" height="20" alt="FC-18"/> | `state-info` | `#b48ead` | **Info.** Tips, documentation links (Orchid/Purple). |
-| **FC-19** | <img src="https://placehold.co/100x40/d08770/d08770/png" width="50" height="20" alt="FC-19"/> | `state-syntax` | `#d08770` | **Highlight.** Key syntax, params, distinct logic (Orange). |
+No decorative glow, glass, blur or noisy backgrounds. The visual language should make room for the work.
 
-## 4. Typography System
+[Read the design system →](docs/design-system.md)
 
-Flatcap utilizes high-quality open-source typefaces that support **Variable Font** technology for precise weight control.
+## Typography
 
-| Role | Font Family | Rationale |
-| :--- | :--- | :--- |
-| **UI & Systems** | **Inter** | Industry standard for screen legibility. Neutral, tall x-height, and versatile. |
-| **Code & Mono** | **Cascadia Code NF** | Microsoft's modern monospace. Includes ligatures (`!=`, `=>`) and Nerd Font icons out-of-the-box. |
-| **Document/Serif** | **Merriweather** | Used for long-form documentation or "Reader Mode". Excellent readability on high-DPI screens. |
+- **IBM Plex Sans:** interfaces, navigation and reading.
+- **IBM Plex Sans Condensed:** optional short labels in dense lists, trees and tables.
+- **Cascadia Code:** editable code, with user-adjustable contextual ligatures.
+- **Cascadia Mono**, or ligatures disabled: logs, hashes and literal identifiers.
 
-### Font Requirements
+Start with 16px for reading, 15px for application text and code, and 14px for controls and tables. Use regular and medium weights for everyday content, with semibold headings. Keep text scalable and let layouts grow with it.
 
-For the best visual experience, please install:
+Fonts are not bundled. Use the appropriate licensed font files or the provided fallback stacks. Nerd Font variants are an option for terminals that need their additional symbols, not a requirement for interfaces.
 
-*   **[Inter](https://fonts.google.com/specimen/Inter)** (UI & Text)
-*   **[Cascadia Code NF](https://github.com/microsoft/cascadia-code/releases)** (Code & Monospace)
-*   **[Merriweather](https://fonts.google.com/specimen/Merriweather)** (Documents)
+[Typography, scale and font usage →](docs/typography.md)
 
-## 5. UI Metrics
+## Motion
 
-To maintain the "Flat, but distinct" aesthetic:
+**Fast, fluid, and quietly precise.** Motion should make an interface feel responsive and dependable: acknowledge actions immediately, explain changes, and then get out of the way. Modern does not mean theatrical; the content and the user's task remain the focus.
 
-*   **Corner Radius:** Standardize on **4px** (Soft).
-*   **Elevation (Shadows):** Minimalist. Use elevation only to separate floating layers, not for decoration.
-    *   *Drop Shadow:* `0 2px 10px rgba(0, 0, 0, 0.3)` (Tight and subtle).
-    *   *Borders:* Prefer using `1px solid var(--fc-border)` over shadows for component separation.
+- **Respond without waiting.** Pressed states and keyboard focus appear immediately. Animation never delays an action or hides real loading time.
+- **Keep transitions short.** Use roughly 100–140ms for small state changes and 160–220ms for panels and dialogs. Exits are no slower than entrances; most routine transitions finish within 250ms.
+- **Move less, connect more.** Use gentle deceleration, subtle opacity changes, and short 4–8px movements only when they explain a relationship. No bounce, overshoot, decorative zoom, or cascading reveals on routine screens.
+- **Stay smooth and interruptible.** Prefer `opacity` and `transform` where appropriate, preserve layout and focus, and respond to a new action without queuing animations.
+- **Respect motion preferences.** With reduced motion, remove nonessential movement and show the final state directly. Never animate the entire interface when changing themes.
 
-## 6. Syntax Highlighting Map
+The shared `motion.fast` token is **120ms**; longer component timings are guidance, not additional exported tokens. Perceived responsiveness must reflect real feedback, not artificial progress or a promise of faster processing.
 
-This mapping separates **Logic** (Blues/Cyans) from **Data** (Greens/Purples/Oranges) to create a semantic scanning flow.
+[Motion principles, timing, easing, and implementation →](docs/motion.md)
 
-| Token Scope | Color Token | Visual Result | Logic |
-| :--- | :--- | :--- | :--- |
-| **Comments** | `text-muted` (FC-06) | <span style="color:#b2b6bf">Grey</span> | Recedes into background. |
-| **Keywords** | `act-primary` (FC-11) | <span style="color:#81a1c1">Blue</span> | Control flow (`if`, `return`, `function`). |
-| **Functions** | `act-focus` (FC-12) | <span style="color:#88c0d0">Cyan</span> | Actionable methods (`.map()`, `print()`). |
-| **Classes/Types** | `act-decor` (FC-14) | <span style="color:#95b1b0">Teal</span> | Static structures (`User`, `String`, `void`). |
-| **Strings** | `state-success` (FC-17)| <span style="color:#a3be8c">Sage</span> | Text content. Calm and distinct. |
-| **Numbers/Const**| `state-info` (FC-18) | <span style="color:#b48ead">Orchid</span> | Immutable data (`42`, `true`, `null`). |
-| **Operators** | `state-syntax` (FC-19) | <span style="color:#d08770">Orange</span> | Logic glue (`=`, `+`, `=>`, `{}`). |
-| **Variables** | `text-body` (FC-07) | <span style="color:#cbced5">White/Grey</span>| Standard identifiers. |
+## In an interface
 
-## 7. Implementation
+The [interactive example](examples/index.html) shows the visual language in tables, forms, code and categorical data. Click a preview to inspect it at full size.
 
-### CSS Variables
+| Slate | Daylight |
+| --- | --- |
+| [![Slate example with the Mineral logo, service table, form and code sample](images/readme/example-slate.png)](images/readme/example-slate.png) | [![Daylight example showing the same content with independently tuned light surfaces](images/readme/example-daylight.png)](images/readme/example-daylight.png) |
+
+[Mobile preview · 375px](images/readme/example-mobile.png)
+
+## Build with Flatcap
+
+Use the shared tokens as the visual foundation of your project, then map them to its components and interaction patterns.
+
+| Resource | Purpose |
+| --- | --- |
+| [`src/theme.json`](src/theme.json) | Canonical colors, typography, spacing, density and brand roles. |
+| [`src/theme.css`](src/theme.css) | CSS custom properties for web interfaces. |
+| [`src/theme.scss`](src/theme.scss) | Sass maps, functions and an opt-in token mixin. |
+| [`src/logo.svg`](src/logo.svg) | Vector brand symbol. |
+| [`examples/`](examples/index.html) | A working example of the tokens in context. |
+
+### Start with CSS
+
+Import `src/theme.css` and choose preferences on the document root:
+
+```html
+<html lang="en" data-fc-theme="slate" data-fc-contrast="standard"
+      data-fc-density="comfortable">
+```
 
 ```css
-:root {
-  /* -- Deep Twilight -- */
-  --fc-bg-main:     #121418;
-  --fc-bg-surface:  #191c22;
-  --fc-bg-elevated: #2e3440;
-  --fc-border:      #3b4252;
-  --fc-detail:      #484f5c;
+@import "./src/theme.css";
 
-  /* -- Dawnlight -- */
-  --fc-text-faint:   #6a7280;
-  --fc-text-muted:   #b2b6bf;
-  --fc-text-body:    #cbced5;
-  --fc-text-heading: #d8dadf;
-  --fc-text-bright:  #e4e6e9;
-
-  /* -- Ocean Blues -- */
-  --fc-act-subtle:  #5e81ac;
-  --fc-act-primary: #81a1c1;
-  --fc-act-focus:   #88c0d0;
-  --fc-act-active:  #8fbcbb;
-  --fc-act-decor:   #95b1b0;
-
-  /* -- Vivid Accents -- */
-  --fc-err:         #bf616a;
-  --fc-warn:        #ebcb8b;
-  --fc-success:     #a3be8c;
-  --fc-info:        #b48ead;
-  --fc-highlight:   #d08770;
+body {
+  background: var(--fc-bg-canvas);
+  color: var(--fc-text-primary);
+  color-scheme: var(--fc-color-scheme);
+  font: var(--fc-font-size-body)/var(--fc-font-line-body) var(--fc-font-ui);
 }
 ```
 
-## Example Implementations
+Slate, standard contrast and comfortable spacing are the defaults. Set `data-fc-theme="system"` or `data-fc-contrast="system"` to follow supported system preferences. Choose `daylight`, `more` or `compact` explicitly when appropriate.
 
-#### [Visual Studio Code](https://github.com/cheycron/flatcap-vscode)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/cheycron.flatcap-theme?color=81a1c1&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=cheycron.flatcap-theme)
-<p align="center">
-  <a href="https://github.com/cheycron/flatcap-vscode">
-    <img src="https://raw.githubusercontent.com/cheycron/flatcap-vscode/main/images/screenshot.png" alt="Flatcap VS Code" width="100%"/>
-  </a>
-</p>
+The stylesheet supplies tokens; your project supplies its layout and components. Sass offers `color()`, `value()` and the opt-in `tokens()` mixin. To customize the core, edit `src/theme.json` and run `python3 scripts/build.py` with Python 3.10+ to regenerate its exports.
 
-#### [Obsidian](https://github.com/cheycron/flatcap-obsidian)
-<p align="center">
-  <a href="https://github.com/cheycron/flatcap-obsidian">
-    <img src="https://raw.githubusercontent.com/cheycron/flatcap-obsidian/main/screenshot.png" alt="Flatcap Obsidian" width="100%"/>
-  </a>
-</p>
+[CSS/Sass API and usage guide →](docs/usage.md)
 
-#### [Windows Terminal](https://github.com/cheycron/flatcap-windows-terminal)
-<p align="center">
-  <a href="https://github.com/cheycron/flatcap-windows-terminal">
-    <img src="https://raw.githubusercontent.com/cheycron/flatcap-windows-terminal/main/images/screenshot.png" alt="Flatcap Windows Terminal" width="100%"/>
-  </a>
-</p>
+## Reference
 
-#### [Firefox](https://github.com/cheycron/flatcap-firefox)
-<p align="center">
-  <a href="https://github.com/cheycron/flatcap-firefox">
-    <img src="https://raw.githubusercontent.com/cheycron/flatcap-firefox/main/images/screenshot.png" alt="Flatcap Firefox" width="100%"/>
-  </a>
-</p>
+- [Design system](docs/design-system.md)
+- [Complete palette and tokens](docs/palette.md)
+- [Typography](docs/typography.md)
+- [Motion](docs/motion.md)
+- [Usage and CSS/Sass API](docs/usage.md)
+- [Accessibility guidelines](docs/accessibility.md)
+- [Brand assets and attribution](docs/branding.md)
+- [Portable agent skill](SKILL.md)
 
-#### [FreshRSS](https://github.com/cheycron/flatcap-freshrss)
-<p align="center">
-  <a href="https://github.com/cheycron/flatcap-freshrss">
-    <img src="https://raw.githubusercontent.com/cheycron/flatcap-freshrss/main/images/screenshot.png" alt="Flatcap FreshRSS" width="100%"/>
-  </a>
-</p>
+## License
 
----
-
-<p align="center">
-  Distributed under the MIT License.
-</p>
-
-<p align="center">
-  <a href="https://www.buymeacoffee.com/cheycron">
-    <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee">
-  </a>
-</p>
+Code and tokens are available under the [MIT License](LICENSE). Pre-existing artwork retains its attribution and original reuse terms. Font licenses are separate. See the [brand guide](docs/branding.md) for asset usage.
