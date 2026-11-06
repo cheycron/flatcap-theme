@@ -8,6 +8,20 @@
 
 This is the **core of Flatcap**: the shared colors, typography, design principles and tokens that give Flatcap-based projects a consistent visual language. Use it as a foundation for a new interface or adapt it to the tools you already work with.
 
+## Integrations
+
+Flatcap 2.0 is ready to install in these applications. Each one is generated from the same `src/theme.json`.
+
+| App | Install | Modes |
+| :--- | :--- | :--- |
+| [Obsidian](https://github.com/cheycron/flatcap-obsidian) | Community themes: search for **FlatCap** ([directory](https://obsidian.md/themes)) | Slate and Daylight follow Obsidian's base color scheme. |
+| [VS Code](https://github.com/cheycron/flatcap-vscode) | [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=cheycron.flatcap-theme) | Flatcap Slate and Flatcap Daylight, with optional automatic switching. |
+| [Windows Terminal](https://github.com/cheycron/flatcap-windows-terminal) | Repository: JSON fragment or paste into `settings.json` | Two color schemes and window themes; automatic mode in `settings.json`. |
+| [FreshRSS](https://github.com/cheycron/flatcap-freshrss) | Repository: paste into the User CSS extension | Slate, Daylight, or a stylesheet that follows the system. |
+| [Firefox](https://github.com/cheycron/flatcap-firefox) | [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/flatcap/) | Follows the operating system's light or dark setting. |
+| [Stylus](https://github.com/cheycron/flatcap-userstyles) | Repository: UserCSS styles for Gemini, Gmail, Instagram and Reddit | Follow system, Slate or Daylight per style. |
+| [OpenClaw](https://github.com/cheycron/flatcap-openclaw) | ClawHub: `openclaw plugins install clawhub:@cheycron/flatcap-openclaw` | Follows the Control UI color mode. |
+
 ## Flatcap at a glance
 
 ![Flatcap 2.0: the same workspace in Slate and Daylight, with matte surfaces, mineral-blue actions, explicit feedback and restrained syntax colors](images/readme/overview.png)
