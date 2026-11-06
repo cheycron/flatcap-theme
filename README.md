@@ -14,7 +14,7 @@ Flatcap 2.0 is ready to install in these applications. Each one is generated fro
 
 | App | Install | Modes |
 | :--- | :--- | :--- |
-| [Obsidian](https://github.com/cheycron/flatcap-obsidian) | Community themes: search for **FlatCap** ([directory](https://obsidian.md/themes)) | Slate and Daylight follow Obsidian's base color scheme. |
+| [Obsidian](https://github.com/cheycron/flatcap-obsidian) | Community themes: search for **FlatCap** ([directory](https://community.obsidian.md/themes/flatcap)) | Slate and Daylight follow Obsidian's base color scheme. |
 | [VS Code](https://github.com/cheycron/flatcap-vscode) | [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=cheycron.flatcap-theme) | Flatcap Slate and Flatcap Daylight, with optional automatic switching. |
 | [Windows Terminal](https://github.com/cheycron/flatcap-windows-terminal) | Repository: JSON fragment or paste into `settings.json` | Two color schemes and window themes; automatic mode in `settings.json`. |
 | [FreshRSS](https://github.com/cheycron/flatcap-freshrss) | Repository: paste into the User CSS extension | Slate, Daylight, or a stylesheet that follows the system. |
