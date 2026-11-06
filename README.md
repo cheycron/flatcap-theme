@@ -21,6 +21,7 @@ Flatcap 2.0 is ready to install in these applications. Each one is generated fro
 | [Firefox](https://github.com/cheycron/flatcap-firefox) | [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/flatcap/) | Follows the operating system's light or dark setting. |
 | [Stylus](https://github.com/cheycron/flatcap-userstyles) | Repository: UserCSS styles for Gemini, Gmail, Instagram and Reddit | Follow system, Slate or Daylight per style. |
 | [OpenClaw](https://github.com/cheycron/flatcap-openclaw) | ClawHub: `openclaw plugins install clawhub:@cheycron/flatcap-openclaw` | Follows the Control UI color mode. |
+| [Home Assistant](https://github.com/cheycron/flatcap-homeassistant) | HACS: custom repository, category **Theme** | Flatcap follows the profile's light or dark mode; Flatcap Slate and Flatcap Daylight pin one. |
 
 ## Flatcap at a glance
 
