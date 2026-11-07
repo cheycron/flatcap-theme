@@ -17,6 +17,7 @@ Flatcap 2.0 is ready to install in these applications. Each one is generated fro
 | [Obsidian](https://github.com/cheycron/flatcap-obsidian) | Community themes: search for **FlatCap** ([directory](https://community.obsidian.md/themes/flatcap)) | Slate and Daylight follow Obsidian's base color scheme. |
 | [VS Code](https://github.com/cheycron/flatcap-vscode) | [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=cheycron.flatcap-theme) | Flatcap Slate and Flatcap Daylight, with optional automatic switching. |
 | [Windows Terminal](https://github.com/cheycron/flatcap-windows-terminal) | Repository: JSON fragment or paste into `settings.json` | Two color schemes and window themes; automatic mode in `settings.json`. |
+| [WezTerm](https://github.com/cheycron/flatcap-wezterm) | Plugin: `wezterm.plugin.require 'https://github.com/cheycron/flatcap-wezterm'`, or the color schemes in `colors/` | The plugin follows the system appearance; Flatcap Slate and Flatcap Daylight pin one. |
 | [FreshRSS](https://github.com/cheycron/flatcap-freshrss) | Repository: paste into the User CSS extension | Slate, Daylight, or a stylesheet that follows the system. |
 | [Firefox](https://github.com/cheycron/flatcap-firefox) | [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/flatcap/) | Follows the operating system's light or dark setting. |
 | [Stylus](https://github.com/cheycron/flatcap-userstyles) | Repository: UserCSS styles for Gemini, Gmail, Instagram and Reddit | Follow system, Slate or Daylight per style. |
