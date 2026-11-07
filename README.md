@@ -23,6 +23,7 @@ Flatcap 2.0 is ready to install in these applications. Each one is generated fro
 | [OpenClaw](https://github.com/cheycron/flatcap-openclaw) | ClawHub: `openclaw plugins install clawhub:@cheycron/flatcap-openclaw` | Follows the Control UI color mode. |
 | [Home Assistant](https://github.com/cheycron/flatcap-homeassistant) | HACS: custom repository, category **Theme** | Flatcap follows the profile's light or dark mode; Flatcap Slate and Flatcap Daylight pin one. |
 | [Gitea](https://github.com/cheycron/flatcap-gitea) | Repository: copy the CSS to `public/assets/css/` and list it in `[ui] THEMES` | Flatcap (auto) follows the system; Flatcap Slate and Flatcap Daylight pin one. |
+| [Jellyfin](https://github.com/cheycron/flatcap-jellyfin) | Repository: paste one CSS into Dashboard → Branding → Custom CSS (base theme **Dark**) | Slate, Daylight, or a stylesheet that follows the system; Flatcap TV is a minimal TV-first dark variant. |
 
 ## Flatcap at a glance
 
