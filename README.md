@@ -21,10 +21,12 @@ Flatcap 2.0 is ready to install in these applications. Each one is generated fro
 | [FreshRSS](https://github.com/cheycron/flatcap-freshrss) | Repository: paste into the User CSS extension | Slate, Daylight, or a stylesheet that follows the system. |
 | [Firefox](https://github.com/cheycron/flatcap-firefox) | [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/flatcap/) | Follows the operating system's light or dark setting. |
 | [Stylus](https://github.com/cheycron/flatcap-userstyles) | Repository: UserCSS styles for Gemini, Gmail, Instagram and Reddit | Follow system, Slate or Daylight per style. |
-| [OpenClaw](https://github.com/cheycron/flatcap-openclaw) | ClawHub: `openclaw plugins install clawhub:@cheycron/flatcap-openclaw` | Follows the Control UI color mode. |
-| [Home Assistant](https://github.com/cheycron/flatcap-homeassistant) | HACS: custom repository, category **Theme** | Flatcap follows the profile's light or dark mode; Flatcap Slate and Flatcap Daylight pin one. |
+| [OpenClaw](https://github.com/cheycron/flatcap-openclaw) | [ClawHub](https://clawhub.ai/cheycron/plugins/flatcap-openclaw): `openclaw plugins install clawhub:@cheycron/flatcap-openclaw` | Follows the Control UI color mode. |
+| [Home Assistant](https://github.com/cheycron/flatcap-homeassistant) | [HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=cheycron&repository=flatcap-homeassistant&category=theme) community catalog, category **Theme** | Flatcap follows the profile's light or dark mode; Flatcap Slate and Flatcap Daylight pin one. |
 | [Gitea](https://github.com/cheycron/flatcap-gitea) | Repository: copy the CSS to `public/assets/css/` and list it in `[ui] THEMES` | Flatcap (auto) follows the system; Flatcap Slate and Flatcap Daylight pin one. |
 | [Jellyfin](https://github.com/cheycron/flatcap-jellyfin) | Repository: paste one CSS into Dashboard → Branding → Custom CSS (base theme **Dark**) | Slate, Daylight, or a stylesheet that follows the system; Flatcap TV is a minimal TV-first dark variant. |
+| [Vivaldi](https://github.com/cheycron/flatcap-vivaldi) | Vivaldi Themes: [Flatcap Slate](https://themes.vivaldi.net/themes/1RQ7Gg2A7ye) and [Flatcap Daylight](https://themes.vivaldi.net/themes/r6ElrbxVlRk); optional companion CSS from the repository | Slate and Daylight are separate themes: switch manually or with Vivaldi's system or scheduled theme switching. |
+| [Playnite](https://github.com/cheycron/flatcap-playnite) | Manual: download the `.pthm` packages from the [v2.0.0 release](https://github.com/cheycron/flatcap-playnite/releases/tag/v2.0.0) and follow the repository instructions | Slate and Daylight for Desktop mode; Slate for Fullscreen mode. |
 
 ## Flatcap at a glance
 
